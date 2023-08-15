@@ -1,6 +1,5 @@
 import qrcode
 import sqlite3
-import aiogram
 from PIL import Image, ImageDraw, ImageFont
 
 def create_blank_image(width, height, color=(255, 255, 255)):
