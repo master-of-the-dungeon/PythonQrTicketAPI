@@ -177,7 +177,7 @@ def main():
         print("3. Check QR code")
         print("4. Create blank white image with QR code")
         print("5. Exit")
-        print("6. Insert test data")
+        print("7. Insert test data")
 
         option = input("Enter option: ")
 
@@ -228,7 +228,7 @@ def main():
 
         elif option == "5":
             break
-        elif option == "6":
+        elif option == "7":
             insert_test_data()
 
 if __name__ == "__main__":
